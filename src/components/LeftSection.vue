@@ -1,9 +1,9 @@
 <template>
-    <div class="row main" id="sidebar" >
+    <div class="row main " id="sidebar" >
         <div class="col  pl-0" >
             <!-- <div class=""> -->
-            <nav class="navbar navbar-dark row  " id="contant">
-                 <a class="navbar-brand" href="#"><h4><span class="hd">CHOP</span>CHOP</h4></a>
+            <nav class="navbar navbar-dark  row" id="contant">
+                 <a class="navbar-brand m-0" href="#"><h4><span class="hd">CHOP</span>CHOP</h4></a>
                 
                 <button  onclick="adjust" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars " aria-hidden="true"></i>
@@ -15,8 +15,8 @@
                     <a class="nav-link " href="#"><span class="ft2"><i class="fa fa-list-alt" aria-hidden="true"></i></span> Order <span class="sr-only">(current)</span></a>
                     <a class="nav-link " href="#"><span class="ft3"><i class="fa fa-calendar-minus-o" aria-hidden="true"></i></span> Menus <span class="sr-only">(current)</span></a>
                     <a class="nav-link " href="#"><span class="ft4"><i class="fa fa-users" aria-hidden="true"></i></span> Customers <span class="sr-only">(current)</span></a>
-                    <a class="nav-link " href="#"><span class="ft5"><i class="fa fa-usd" aria-hidden="true"></i></span> Payments <span class="sr-only">(current)</span></a>
-                    <a class="nav-link " href="#"><span class="ft6"><i class="fa fa-cog" aria-hidden="true"></i></span> Settings <span class="sr-only">(current)</span></a>
+                    <a class="nav-link " href="#"><span class="ft5 pl-1"><i class="fa fa-usd" aria-hidden="true"></i></span> Payments <span class="sr-only">(current)</span></a>
+                    <a class="nav-link " href="#"><span class="ft6 pl-1"><i class="fa fa-cog" aria-hidden="true"></i></span> Settings <span class="sr-only">(current)</span></a>
                 </div>
             </div>
         </div>
@@ -49,28 +49,30 @@
 
 <style scoped>
 .main{
-  border-right: solid 2px rgba(128, 128, 128, 0.418);
-    height: 99vh;
+  /* border-right: solid 2px rgba(128, 128, 128, 0.418); */
+    height: 100vh;
+    /* box-shadow:0 5px 5px #797878; */
+    width: auto;
+    height: 100vh;
+    background: #fff;
+    box-shadow: 6px 0 18px rgb(0 0 0 / 7%);
 
 }
 .navbar-dark{
     padding-top: 30px;
 }
 .navbar-toggler {
-    /* color: rgba(255,255,255,.5); */
     border-color: rgba(255, 255, 255, 0.1) 2px;
-    margin-right: 5px !important;
+    /* margin-right: 5px !important; */
+
 }
-/* .navbar-toggler-icon{
-    background-color: rgba(0, 0, 0, 0.308);
-} */
 .nav-link{
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-    font-size: 18px;
+    font-size: 15px;
     /* font-weight: bold; */
     color: #797878;
-    height: 70px;
-    padding-left: 45px;
+    height: 65px;
+    padding-left: 30px;
 }
 .nav-link:hover{
     background-color: #f8e7df;
@@ -93,29 +95,29 @@ h4{
     padding-left: 30px;
 }
 .ft1{
-    font-size: 30px;
-    padding-right: 12px;
+    font-size: 20px;
+    padding-right: 36px;
 }
 .ft2{
-    font-size: 30px;
-    padding-right: 12px;
+    font-size: 20px;
+    padding-right: 36px;
 }
 .ft3{
-    font-size: 28px;
-    padding-right: 12px;
+    font-size: 20px;
+    padding-right: 36px;
 
 }
 .ft4{
-    font-size: 29px;
-    padding-right: 11px;
+    font-size: 20px;
+    padding-right: 36px;
 }
 .ft5{
-    font-size: 30px;
-    padding-right: 25px;
+    font-size: 20px;
+    padding-right: 36px;
 }
 .ft6{
-    font-size: 30px;
-    padding-right: 16px;
+    font-size: 20px;
+    padding-right: 36px;
 }
 .fa-bars {
     font-size: 30px;

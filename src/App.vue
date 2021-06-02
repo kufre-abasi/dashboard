@@ -4,8 +4,8 @@
         <LeftSection/>
     </div>
 
-    <div class="col-10  right">
-        <div class="row mx-0 ">
+    <div class="col-10  right pr-0">
+        <div class="row mx-0 navbar ">
             <Navbar/>
         </div>
         <div class="row mx-0  bottom">
@@ -30,20 +30,25 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   height: 100vh;
   padding: 20px  !important;
 }
 .left{
-  height: 99vh;
+  height: 100vh;
+  
 }
 .right{
-  height: 99vh;
+  height: auto
 }
 .bottom{
   background-color: #f8f3f7;
-  padding: 20px;
+  padding: 27px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  height: 85vh;
 }
 </style>

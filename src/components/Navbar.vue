@@ -1,7 +1,7 @@
 <template>
 <div class="col pl-0">
     <nav class="navbar navbar-expand-lg  ">
-        <form class="form-inline ">
+        <form class="form-inline col-5">
             <input class="form-control mr-sm-0 " type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline my-2 my-sm-0 search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
         </form>
@@ -9,12 +9,12 @@
         <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button> -->
-        <div class="collapse navbar-collapse " id="navbarNav">
+        <div class="collapse navbar-collapse col " id="navbarNav">
             <ul class="navbar-nav ">
             <li class="nav-item active">
                 <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item active px-2">
                 <a class="nav-link" href="#">Tools <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
@@ -23,10 +23,18 @@
             </ul>
 
         </div>
-        <div class="col">
-            <div class="row">
-                <a class="nav-link" href="#"><i class="fa fa-bell" aria-hidden="true"></i> <span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="#"><i class="fas fa-facebook-messenger    "></i> <span class="sr-only">(current)</span></a>
+        <div class="col-2">
+            <div class="row p-0 m-0"> 
+                <!-- <h1 class="col">1</h1>
+                <h1 class="col">2</h1> -->
+                <a class="nav-link p-0" href="#"><i class="fa fa-bell" aria-hidden="true"></i> <span class="sr-only">(current)</span></a>
+                <a class="nav-link p-0" href="#"><i class="fa fa-comment" aria-hidden="true"></i> <span class="sr-only">(current)</span></a>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="row  user p-0">
+                    <h6 class="col-9 username m-0 pt-2">Hello,Mike</h6>
+                    <div class="col-3  userimg"></div>
             </div>
         </div>
 </nav>
@@ -48,7 +56,7 @@
 }
 .form-control{
     border-radius:0 ;
-    width: 280px;
+    width: 330px;
     /* padding: 20px; */
     color: #495057;
     background-color: #fff;
@@ -63,5 +71,18 @@
 .nav-link:hover{
     color: #c4837d;
     font-weight: 700;
+}
+.userimg{
+    height:40px ;
+    width: 40px;
+    border-radius: 50px;
+    background-image: url(../assets/image/user.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.user{
+    border-radius:0 50px  50px  0  ;
+    background-color: #c4837d;
+    color: #fff;
 }
 </style>
