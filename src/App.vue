@@ -45,7 +45,7 @@ export default {
 }
 .bottom{
   background-color: #f8f3f7;
-  padding: 27px;
+  padding: 27px 27px 27px 30px;
   overflow-y: scroll;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
