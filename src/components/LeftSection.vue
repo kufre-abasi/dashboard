@@ -15,8 +15,8 @@
                     <a class="nav-link " href="#"><span class="ft2"><i class="fa fa-list-alt" aria-hidden="true"></i></span> Order <span class="sr-only">(current)</span></a>
                     <a class="nav-link " href="#"><span class="ft3"><i class="fa fa-calendar-minus-o" aria-hidden="true"></i></span> Menus <span class="sr-only">(current)</span></a>
                     <a class="nav-link " href="#"><span class="ft4"><i class="fa fa-users" aria-hidden="true"></i></span> Customers <span class="sr-only">(current)</span></a>
-                    <a class="nav-link " href="#"><span class="ft5 pl-1"><i class="fa fa-usd" aria-hidden="true"></i></span> Payments <span class="sr-only">(current)</span></a>
-                    <a class="nav-link " href="#"><span class="ft6 pl-1"><i class="fa fa-cog" aria-hidden="true"></i></span> Settings <span class="sr-only">(current)</span></a>
+                    <a class="nav-link " href="#"><span class="ft5 "><i class="fa fa-usd" aria-hidden="true"></i></span> Payments <span class="sr-only">(current)</span></a>
+                    <a class="nav-link " href="#"><span class="ft6 "><i class="fa fa-cog" aria-hidden="true"></i></span> Settings <span class="sr-only">(current)</span></a>
                 </div>
             </div>
         </div>
@@ -96,28 +96,28 @@ h4{
 }
 .ft1{
     font-size: 20px;
-    padding-right: 36px;
+    padding-right: 15px;
 }
 .ft2{
     font-size: 20px;
-    padding-right: 36px;
+    padding-right: 15px;
 }
 .ft3{
     font-size: 20px;
-    padding-right: 36px;
+    padding-right: 15px;
 
 }
 .ft4{
     font-size: 20px;
-    padding-right: 36px;
+    padding-right: 15px;
 }
 .ft5{
     font-size: 20px;
-    padding-right: 36px;
+    padding-right: 26px;
 }
 .ft6{
     font-size: 20px;
-    padding-right: 36px;
+    padding-right: 21px;
 }
 .fa-bars {
     font-size: 30px;
